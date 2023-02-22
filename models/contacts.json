@@ -1,11 +1,5 @@
 [
   {
-    "id": "1",
-    "name": "Allen Raymond",
-    "email": "nulla.ante@vestibul.co.uk",
-    "phone": "(992) 914-3792"
-  },
-  {
     "id": "2",
     "name": "Chaim Lewis",
     "email": "dui.in@egetlacus.ca",
@@ -31,7 +25,7 @@
   },
   {
     "id": "6",
-    "name": "Abbot Franks",
+    "name": "Samira",
     "email": "scelerisque@magnis.org",
     "phone": "(186) 568-3720"
   },
@@ -60,8 +54,8 @@
     "phone": "(748) 206-2688"
   },
   {
-    "contactId": "c58c8752-d6fc-4b2f-9a01-813468449e64",
-    "name": "Samira",
+    "id": "dcf04b45-6347-4c7d-869a-c27152369924",
+    "name": "Sonya",
     "email": "sonya.com",
     "phone": "0665042387"
   }
