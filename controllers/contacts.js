@@ -19,9 +19,7 @@ const listContacts = async (req, res) => {
 
 const getContactById = async (req, res) => {
   const { _id: owner } = req.user;
-  console.log(owner);
   const { contactId } = req.params;
-  console.log(contactId);
 
   const result = await Contact.findOne({ _id: contactId, owner });
 
@@ -41,7 +39,6 @@ const removeContact = async (req, res) => {
   const { _id: owner } = req.user;
   const { contactId } = req.params;
   const result = await Contact.findOneAndRemove({ _id: contactId, owner });
-  console.log(result);
   if (!result) {
     throw HttpError(404, "Not found");
   }
